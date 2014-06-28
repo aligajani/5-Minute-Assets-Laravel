@@ -11,7 +11,19 @@
 |
 */
 
+/*
+Route::get('/', function()
+{
+	$style = asset('css/style.css');
+	return View::make('hello')->with('style', $style);
+
+});
+*/
+
 Route::get('/', function()
 {
 	return View::make('hello');
+
 });
+
+
